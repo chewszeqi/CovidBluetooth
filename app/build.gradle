@@ -21,8 +21,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         buildTypes.each {
-            it.buildConfigField("String", 'API_KEY','"AIzaSyBtky9FnJVjA1i2rBTzyKoXjTvq7dbc-j0"')
-            it.buildConfigField("String", 'MAPS_API_KEY','"AIzaSyANLCM0MK59TWr0ziluHJGIgErXfPQoL3k"')
+            it.buildConfigField("String", 'API_KEY','"API_KEY"')
+            it.buildConfigField("String", 'MAPS_API_KEY','"MAPS_API_KEY"')
         }
     }
     compileOptions {
